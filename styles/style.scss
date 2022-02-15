@@ -1,0 +1,165 @@
+@import "./grid";
+
+
+
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    width: 100%;
+}
+
+nav {
+    
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: 2% 5%;
+    font-size: 1.2em;
+
+}
+
+ul {
+    display: flex; 
+    
+}
+
+li {
+    list-style: none;
+    margin-right: 2rem;
+    
+}
+h1 {
+    font-size: 5rem;
+    margin-top: 12%;
+    color: #fff;
+}
+header {
+    background-color:#3EBFFF;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.image-header {
+  img {
+      width: 100%;
+  }
+}
+.image{
+    img{
+        width: 100%;
+    }
+}
+
+
+
+.square {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 22%;
+    margin-right: 22%;
+    min-height: 765px;
+
+}
+
+h2 {
+    font-size: 3.2rem;
+    
+}
+p {
+    font-size: 1.2rem;
+    font-family: 'Barlow', sans-serif;
+}
+
+.grey{
+    color : #9A9BA2;
+    margin: 10% 0;
+ }
+
+a:link {
+
+    text-decoration: none;
+    
+    
+}
+
+h1, h2, h3, a, .name {
+    font-family: 'Fraunces', serif;
+    
+}
+
+h2, a, .name {
+  color:  #23303C;
+}
+
+.clients-h3{
+    font-size: 1.5rem;
+    color: #afaca6;
+    text-align: center;
+    background-color: #f8eee6;
+    padding-top: 5%
+}
+
+.testimonials {
+    display: flex;
+    background-color: #f8eee6;
+    padding-top: 5%;
+    padding-bottom: 8%;
+}
+
+.testimonial {
+  
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    img{
+        border-radius: 50%;
+        max-width: 15%;
+        margin-bottom: 10%;
+    }
+    p {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+.name {
+    font-size: 1.5em;
+    margin-top: 10%;
+    margin-bottom: 2%;
+}
+
+.job {
+    color: #afaca6;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #90D4C5;
+    
+}
+
+
+
+
+
+/*
+@media (min-width: 30em) {
+    .square {
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: center
+    }
+    
+} */
+
