@@ -16,12 +16,6 @@
   width: 100%;
 }
 
-@media screen and (max-width: 375px) {
-  .testimonials {
-    display: inline-block;
-  }
-}
-
 *, *::before, *::after {
   margin: 0;
   padding: 0;
@@ -101,6 +95,7 @@ header h1 {
 
 img {
   width: 100%;
+  display: block;
 }
 
 .square {
@@ -301,5 +296,11 @@ footer a:hover {
 
 .image-background-design img, .image-background-photo img {
   width: 100%;
+}
+
+@media screen and (max-width: 375px) {
+  .testimonials {
+    display: inline-block;
+  }
 }
 /*# sourceMappingURL=style.css.map */
