@@ -52,10 +52,20 @@ h1 {
     color: #fff;
 }
 header {
-    background-color: $headerBackgroundColor;
     display: flex;
     text-align: center;
     flex-direction: column;
+    justify-content: center;
+    background: url("../images/image-header.jpg") no-repeat bottom/cover;
+    figure{
+        img{
+            width:3%;
+            padding-bottom: 20%;
+        }
+    }
+    h1  {
+        padding-bottom: 5%;
+    }
 }
 
 
@@ -178,8 +188,23 @@ footer {
         margin-top: 8%;
         padding-bottom: 5%; 
         font-size: 1.5em;
+        
     }
-     }
+    i {
+        &:hover { 
+            color: white;
+        }
+
+    }
+
+    a {
+        text-decoration: none;
+        color: $footerColor;
+        &:hover{
+            color: white;
+        }
+    }
+}
      
 .image-background-design {
     background-image: url(../images/image-graphic-design.jpg);
@@ -219,7 +244,4 @@ footer {
 }
 
 
-@media screen and (max-width: 375px) {
-    
-}
 

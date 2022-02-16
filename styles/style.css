@@ -16,6 +16,12 @@
   width: 100%;
 }
 
+@media screen and (max-width: 375px) {
+  .testimonials {
+    display: inline-block;
+  }
+}
+
 *, *::before, *::after {
   margin: 0;
   padding: 0;
@@ -70,7 +76,6 @@ h1 {
 }
 
 header {
-  background-color: #3EBFFF;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -79,6 +84,19 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: url("../images/image-header.jpg") no-repeat bottom/cover;
+}
+
+header figure img {
+  width: 3%;
+  padding-bottom: 20%;
+}
+
+header h1 {
+  padding-bottom: 5%;
 }
 
 img {
@@ -222,6 +240,19 @@ footer .footer__icons {
   margin-top: 8%;
   padding-bottom: 5%;
   font-size: 1.5em;
+}
+
+footer i:hover {
+  color: white;
+}
+
+footer a {
+  text-decoration: none;
+  color: #458c7e;
+}
+
+footer a:hover {
+  color: white;
 }
 
 .image-background-design {
