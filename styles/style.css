@@ -74,7 +74,7 @@ li {
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 4rem;
   margin-top: 12%;
   color: #fff;
 }
@@ -291,7 +291,7 @@ footer a:hover {
   text-align: center;
   background-size: 100%;
   background-repeat: no-repeat;
-  min-height: 765px;
+  min-height: 400px;
 }
 
 .image-background-design h4, .image-background-photo h4 {
@@ -302,7 +302,7 @@ footer a:hover {
 .image-background-design p, .image-background-photo p {
   margin-left: 22%;
   margin-right: 22%;
-  margin-bottom: 10%;
+  margin-bottom: 7%;
 }
 
 .image-background-design img, .image-background-photo img {
@@ -312,6 +312,41 @@ footer a:hover {
 @media screen and (max-width: 375px) {
   .testimonials {
     display: inline-block;
+  }
+  .container-grid {
+    display: -ms-grid;
+    display: grid;
+    --auto-grid-min-size: 16rem;
+    -ms-grid-columns: (minmax(150px, 1fr))[auto-fill];
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    width: 100%;
+    margin-bottom: 0%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .square-grid {
+    display: -ms-grid;
+    display: grid;
+    --auto-grid-min-size: 16rem;
+    -ms-grid-columns: (minmax(700px, 1fr))[auto-fill];
+        grid-template-columns: repeat(auto-fill, minmax(700px, 1fr));
+    width: 100%;
+  }
+  .container-grid {
+    display: -ms-grid;
+    display: grid;
+    --auto-grid-min-size: 16rem;
+    -ms-grid-columns: (minmax(300px, 1fr))[auto-fill];
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    width: 100%;
+    margin-bottom: 0%;
+  }
+  .square {
+    min-height: 400px;
+  }
+  .image-background-design, .image-background-photo {
+    min-height: 600px;
   }
 }
 /*# sourceMappingURL=style.css.map */

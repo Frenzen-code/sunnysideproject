@@ -2,4 +2,45 @@
     .testimonials {
         display: inline-block;
     }
+
+    .container-grid {
+        display: grid;
+        --auto-grid-min-size: 16rem;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        width: 100%;
+        margin-bottom: 0%;
+    
+    }
+
+
+
+    
+}
+
+
+@media screen and (min-width: 1440px)  {
+    .square-grid {
+        display: grid;
+        --auto-grid-min-size: 16rem;
+        grid-template-columns: repeat(auto-fill, minmax(700px, 1fr));
+        width: 100%;
+    }
+
+
+    .container-grid {
+        display: grid;
+        --auto-grid-min-size: 16rem;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        width: 100%;
+        margin-bottom: 0%;
+    
+    }
+
+    .square {
+        min-height: 400px;
+    }
+    .image-background-design, .image-background-photo {
+        min-height: 600px;
+    }
+
 }
