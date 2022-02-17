@@ -13,14 +13,19 @@
 body {
     width: 100%;
 }
-
+// test
 nav {
-    
     display: flex;
     justify-content: space-between;
     color: white;
     margin: 2% 5%;
     font-size: 1.2em;
+
+   ul {
+       margin-left: 55%;
+       margin-top: 0.5em;
+
+    }
 
     a{
         color: white;
@@ -29,14 +34,26 @@ nav {
             color: white;
             border-radius: 25px;
             border: none;
-            padding: 1em;
+            padding: 10px;
         }
     }
 
 }
+input {
+    display: none;
+}
+
+#sunnyside {
+    width: 12rem;
+    position: absolute;
+    top:20px;
+    left: 20px;
+}
+
 
 ul {
     display: flex; 
+    
     
 }
 
