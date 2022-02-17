@@ -92,12 +92,15 @@ header {
       -ms-flex-pack: center;
           justify-content: center;
   background: url("../images/image-header.jpg") no-repeat bottom/cover;
+  background-size: cover;
+  background-position: center;
 }
 
 header figure img {
   width: 3%;
   padding-bottom: 20%;
   margin: 0 auto;
+  display: block;
 }
 
 header h1 {
@@ -149,7 +152,7 @@ h2 {
 }
 
 p {
-  font-size: 1.2rem;
+  font-size: 18px;
   font-family: 'Barlow', sans-serif;
 }
 
@@ -322,6 +325,43 @@ footer a:hover {
     width: 100%;
     margin-bottom: 0%;
   }
+  header {
+    min-height: 600px;
+  }
+  header #sunnyside {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 7rem;
+  }
+  header #arrow {
+    width: 2rem;
+    margin-bottom: 2em;
+  }
+  header h1 {
+    font-size: 2.5rem;
+  }
+  header ul {
+    display: none;
+  }
+  header nav {
+    margin-top: 0;
+  }
+  .square {
+    max-height: 200px;
+  }
+  .job {
+    margin-bottom: 1em;
+  }
+  footer {
+    min-height: 16rem;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .footer__icons {
+    margin-bottom: 2em;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -337,8 +377,8 @@ footer a:hover {
     display: -ms-grid;
     display: grid;
     --auto-grid-min-size: 16rem;
-    -ms-grid-columns: (minmax(300px, 1fr))[auto-fill];
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    -ms-grid-columns: (minmax(350px, 1fr))[auto-fill];
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     width: 100%;
     margin-bottom: 0%;
   }

@@ -56,13 +56,17 @@ header {
     flex-direction: column;
     justify-content: center;
     background: url("../images/image-header.jpg") no-repeat bottom/cover;
-    figure{
-        img{
+    background-size: cover;
+    background-position: center;
+        figure{ 
+            img{
             width:3%;
             padding-bottom: 20%;
             margin: 0 auto;
+            display: block;
+            }
         }
-    }
+    
     h1  {
         padding-bottom: 5%;
     }
@@ -110,7 +114,7 @@ h2 {
     
 }
 p {
-    font-size: 1.2rem;
+    font-size: 18px;
     font-family: 'Barlow', sans-serif;
 }
 

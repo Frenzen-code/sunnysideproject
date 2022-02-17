@@ -12,8 +12,46 @@
     
     }
 
+    header{
+        min-height: 600px;
+        #sunnyside{
+            position: absolute;
+            top:20px;
+            left: 20px;
+            width: 7rem;
+         }
+         #arrow {
+             width: 2rem;
+             margin-bottom: 2em;
+         }
+        h1 {
+            font-size: 2.5rem;
+            
+            
+        }
+        ul {
+            display: none;
+        }
+        nav {
+            margin-top: 0;
+        }
+    }
 
+.square {
+    max-height: 200px;
+}    
+.job {
+    margin-bottom: 1em;
+}
 
+footer {
+    min-height: 16rem;
+    justify-content: space-between;
+}
+
+.footer__icons {
+    margin-bottom: 2em;
+}
     
 }
 
@@ -30,7 +68,7 @@
     .container-grid {
         display: grid;
         --auto-grid-min-size: 16rem;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
         width: 100%;
         margin-bottom: 0%;
     
