@@ -316,6 +316,12 @@ footer a:hover {
   .testimonials {
     display: inline-block;
   }
+  /* .square-grid {
+        display: grid;
+        --auto-grid-min-size: 16rem;
+        grid-template-columns: repeat(auto-fill, minmax(700px, 1fr));
+        width: 100%;
+    } */
   .container-grid {
     display: -ms-grid;
     display: grid;
@@ -381,6 +387,9 @@ footer a:hover {
         grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     width: 100%;
     margin-bottom: 0%;
+  }
+  #sunnyside {
+    width: 10rem;
   }
   .square {
     min-height: 400px;
