@@ -165,7 +165,7 @@ h2, a, .name {
 }
 
 .clients-h3 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: #afaca6;
   text-align: center;
   background-color: #f8eee6;
@@ -199,7 +199,7 @@ h2, a, .name {
 
 .name {
   font-size: 1.5em;
-  margin-top: 10%;
+  margin-top: 5em;
   margin-bottom: 2%;
 }
 
@@ -504,8 +504,9 @@ footer a:hover {
     min-height: 600px;
   }
 
-  .client-h3 {
-    padding-top: 10em;
+  .testimonials {
+    padding-right: 5em;
+    padding-left: 5em;
   }
 }
 @media screen and (max-width: 870px) {
