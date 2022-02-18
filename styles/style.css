@@ -1,14 +1,14 @@
 .square-grid {
   display: grid;
   --auto-grid-min-size: 16rem;
-  grid-template-columns: repeat(auto-fill, minmax(900px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
   width: 100%;
 }
 
 .container-grid {
   display: grid;
   --auto-grid-min-size: 16rem;
-  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
   width: 100%;
   margin-bottom: 0%;
 }
@@ -94,6 +94,21 @@ header h1 {
 img {
   width: 100%;
   display: block;
+}
+
+/*
+.image {
+
+      display: block;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+
+    }
+  */
+.image img {
+  height: 100%;
+  object-fit: cover;
 }
 
 .square {
@@ -233,9 +248,10 @@ footer a:hover {
   flex-direction: column;
   justify-content: flex-end;
   text-align: center;
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
-  min-height: 400px;
+  min-height: 500px;
+  background-position: center;
 }
 .image-background-design h4, .image-background-photo h4 {
   font-size: 2em;
@@ -255,12 +271,22 @@ footer a:hover {
     display: inline-block;
   }
 
-  /* .square-grid {
-       display: grid;
-       --auto-grid-min-size: 16rem;
-       grid-template-columns: repeat(auto-fill, minmax(700px, 1fr));
-       width: 100%;
-   } */
+  .clients-h3 {
+    padding-top: 3em;
+    padding-bottom: 2em;
+  }
+
+  .job {
+    padding-bottom: 2em;
+  }
+
+  .square-grid {
+    display: grid;
+    --auto-grid-min-size: 16rem;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    width: 100%;
+  }
+
   .container-grid {
     display: grid;
     --auto-grid-min-size: 16rem;
@@ -294,7 +320,34 @@ footer a:hover {
   }
 
   .square {
-    max-height: 200px;
+    min-height: 500px;
+    text-align: center;
+    align-items: center;
+  }
+  .square h2 {
+    font-size: 2rem;
+  }
+
+  .image-background-design {
+    background-image: url(../icons/image-graphic-design.jpg);
+  }
+
+  .image-background-photo {
+    background-image: url(../icons/image-photography.jpg);
+  }
+
+  .image-background-design, .image-background-photo {
+    min-height: 600px;
+    background-size: cover;
+    background-position: center;
+  }
+  .image-background-design h4, .image-background-photo h4 {
+    font-size: 1.5em;
+  }
+  .image-background-design p, .image-background-photo p {
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-bottom: 4em;
   }
 
   .job {

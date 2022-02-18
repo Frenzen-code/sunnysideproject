@@ -1,14 +1,24 @@
 @media screen and (max-width: 375px) {
     .testimonials {
         display: inline-block;
+
+        
+    }
+    .clients-h3 {
+      padding-top: 3em;
+      padding-bottom: 2em;
     }
 
-   /* .square-grid {
+    .job {
+      padding-bottom: 2em;
+    }
+
+   .square-grid {
         display: grid;
         --auto-grid-min-size: 16rem;
-        grid-template-columns: repeat(auto-fill, minmax(700px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
         width: 100%;
-    } */
+    } 
 
     .container-grid {
         display: grid;
@@ -18,6 +28,7 @@
         margin-bottom: 0%;
     
     }
+
 
     header{
         min-height: 600px;
@@ -36,8 +47,7 @@
             
             
         }
-        ul {
-        }
+       
         nav {
             margin-top: 0;
             display: inline-block;
@@ -47,10 +57,38 @@
             }
         }
     }
-
 .square {
-    max-height: 200px;
+    min-height: 500px;
+    text-align: center;
+    align-items: center;
+  
+    h2 {
+      font-size: 2rem;
+    }
 }    
+
+.image-background-design{
+  background-image: url(../icons/image-graphic-design.jpg);
+}
+.image-background-photo {
+  background-image: url(../icons/image-photography.jpg);
+}
+
+.image-background-design, .image-background-photo {
+  min-height: 600px;
+  h4 {
+    font-size: 1.5em;
+  }
+  p {
+    
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-bottom: 4em;
+  }
+  background-size: cover;
+  background-position: center;
+}
+
 .job {
     margin-bottom: 1em;
 }
@@ -106,6 +144,9 @@ footer {
 
 @include burgermenu;
 
+
+
+
 nav {
   display: inline-block;
 }
@@ -129,3 +170,4 @@ h1 {
 }
 
 }
+

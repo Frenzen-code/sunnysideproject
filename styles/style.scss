@@ -13,7 +13,6 @@
 body {
     width: 100%;
 }
-// test
 nav {
     display: flex;
     justify-content: space-between;
@@ -94,6 +93,27 @@ header {
 img {
     width:100%;
     display: block;
+
+
+}
+
+/*
+.image {
+    
+      display: block;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+
+    }
+  */
+    
+
+.image {
+    img {
+        height: 100%;
+        object-fit: cover;
+    }
 }
 
 .square {
@@ -114,6 +134,7 @@ img {
         border: none;
         
     }
+ 
 }
 .hr__red{
     background-color: $hrColorRed;
@@ -227,6 +248,8 @@ footer {
         }
     }
 }
+
+
      
 .image-background-design {
     background-image: url(../images/image-graphic-design.jpg);
@@ -246,9 +269,10 @@ footer {
     flex-direction: column;
     justify-content: flex-end;
     text-align: center;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-    min-height: 400px;
+    min-height: 500px;
+    background-position: center;
     
     h4{
         font-size: 2em;
