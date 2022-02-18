@@ -8,7 +8,7 @@
 .container-grid {
     display: grid;
     --auto-grid-min-size: 16rem;
-    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(375px, 1fr));
     width: 100%;
     margin-bottom: 0%;
 
