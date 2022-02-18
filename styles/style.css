@@ -376,6 +376,11 @@ footer a:hover {
     margin-top: 5em;
   }
 }
+@media screen and (max-width: 500px) {
+  .testimonials {
+    display: inline-block;
+  }
+}
 @media screen and (max-width: 375px) {
   .testimonials {
     display: inline-block;
