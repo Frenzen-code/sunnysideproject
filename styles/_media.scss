@@ -56,16 +56,20 @@
         --auto-grid-min-size: 16rem;
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
         width: 100%;
+        grid-template-areas: 
+        "b" "a" 
+        "c" "d" 
+        "e" "f";
     } 
-/*
-    .square:nth-child(1) {order: 1; }
-    .image:nth-child(2) {order: 2;}
-    .square:nth-child(3) {order: 3;}
-    .image:nth-child(4) {order: 4;}
-    .image-background-design:nth-child(5) {order: 5;}
-    .image-background-photo:nth-child(6) {order: 6;}
 
-    */
+    .grid:nth-child(1) {grid-area: a;}
+    .grid:nth-child(2) {grid-area: b;}
+    .grid:nth-child(3) {grid-area: c;}
+    .grid:nth-child(4) {grid-area: d;}
+    .grid:nth-child(5) {grid-area: e;}
+    .grid:nth-child(6) {grid-area: f;}
+
+    
 
     .container-grid {
         display: grid;
