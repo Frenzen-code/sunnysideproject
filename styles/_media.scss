@@ -1,12 +1,21 @@
 @media screen and (max-width: 375px) {
     .testimonials {
         display: inline-block;
-
-        
     }
     .clients-h3 {
+      font-size: 1rem;
       padding-top: 3em;
       padding-bottom: 2em;
+      letter-spacing: 0.2em;
+    }
+
+    .testimonial {
+      .name {
+        font-size: 1.1rem;
+      }
+      .job{
+        font-size: 1rem;
+      }
     }
 
     .job {
@@ -34,16 +43,17 @@
         min-height: 600px;
         #sunnyside{
             position: absolute;
-            top:20px;
-            left: 20px;
-            width: 7rem;
+            top:30px;
+            left: 30px;
+            width: 8rem;
          }
          #arrow {
-             width: 2rem;
-             margin-bottom: 2em;
+             width: 2.2rem;
+             margin-bottom: 1em;
          }
         h1 {
             font-size: 2.5rem;
+            margin-bottom: 0.5em;
             
             
         }
@@ -58,7 +68,7 @@
         }
     }
 .square {
-    min-height: 500px;
+    min-height: 450px;
     text-align: center;
     align-items: center;
   

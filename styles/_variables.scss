@@ -7,6 +7,7 @@ $photoSectionFont: hsl(198, 62%, 26%);
 $footerBackgroundColor: #90D4C5;
 $hrColorRed: hsl(7, 99%, 70%);
 $hrColorYellow: hsl(51, 100%, 49%);
+$testimonialText: #EFECF0;
 
 
 @mixin burgermenu {
@@ -15,8 +16,8 @@ $hrColorYellow: hsl(51, 100%, 49%);
 {
   display: block;
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: 2rem;
+  right: 1rem;
   z-index: 1;
   -webkit-user-select: none;
   user-select: none;
@@ -55,7 +56,7 @@ $hrColorYellow: hsl(51, 100%, 49%);
   height: 4px;
   margin-bottom: 5px;
   position: relative;
-  background: #cdcdcd;
+  background: white;
   border-radius: 3px;
   z-index: 1;
   transform-origin: 4px 0px;
