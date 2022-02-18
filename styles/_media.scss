@@ -12,6 +12,7 @@
     .testimonial {
       .name {
         font-size: 1.1rem;
+        
       }
       .job{
         font-size: 1rem;
@@ -141,9 +142,16 @@ footer {
 
     .square {
         min-height: 400px;
+        h2 {
+          font-size: 3rem;
+        }
     }
     .image-background-design, .image-background-photo {
         min-height: 600px;
+    }
+
+    .client-h3 {
+      padding-top: 10em;
     }
 
 }

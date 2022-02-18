@@ -32,9 +32,10 @@ nav {
 }
 nav ul {
   margin-left: 55%;
-  margin-top: 0.5em;
+  margin-top: 0.7em;
 }
 nav a {
+  font-family: "Barlow", sans-serif;
   color: white;
   text-decoration: none;
 }
@@ -44,6 +45,7 @@ nav a:hover {
   border-radius: 25px;
   border: none;
   padding: 10px;
+  text-transform: uppercase;
 }
 
 input {
@@ -53,8 +55,8 @@ input {
 #sunnyside {
   width: 12rem;
   position: absolute;
-  top: 25px;
-  left: 20px;
+  top: 3em;
+  left: 2.5em;
 }
 
 ul {
@@ -63,7 +65,8 @@ ul {
 
 li {
   list-style: none;
-  margin-right: 2rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
 }
 
 h1 {
@@ -166,7 +169,8 @@ h2, a, .name {
   color: #afaca6;
   text-align: center;
   background-color: #f8eee6;
-  padding-top: 5%;
+  padding-top: 7em;
+  letter-spacing: 0.2em;
 }
 
 .testimonials {
@@ -193,10 +197,6 @@ h2, a, .name {
   margin-right: 10%;
 }
 
-.testimonial__text p {
-  color: red;
-}
-
 .name {
   font-size: 1.5em;
   margin-top: 10%;
@@ -205,6 +205,7 @@ h2, a, .name {
 
 .job {
   color: #afaca6;
+  padding-bottom: 6.5em;
 }
 
 footer {
@@ -495,9 +496,16 @@ footer a:hover {
   .square {
     min-height: 400px;
   }
+  .square h2 {
+    font-size: 3rem;
+  }
 
   .image-background-design, .image-background-photo {
     min-height: 600px;
+  }
+
+  .client-h3 {
+    padding-top: 10em;
   }
 }
 @media screen and (max-width: 870px) {

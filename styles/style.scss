@@ -22,11 +22,12 @@ nav {
 
    ul {
        margin-left: 55%;
-       margin-top: 0.5em;
+       margin-top: 0.7em;
 
     }
 
     a{
+        font-family: 'Barlow', sans-serif;
         color: white;
         text-decoration: none;
         &:hover { background-color:lightblue;
@@ -34,6 +35,7 @@ nav {
             border-radius: 25px;
             border: none;
             padding: 10px;
+            text-transform: uppercase;
         }
     }
 
@@ -45,8 +47,8 @@ input {
 #sunnyside {
     width: 12rem;
     position: absolute;
-    top:25px;
-    left: 20px;
+    top: 3em;
+    left: 2.5em;
 }
 
 
@@ -58,7 +60,8 @@ ul {
 
 li {
     list-style: none;
-    margin-right: 2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
     
 }
 h1 {
@@ -177,7 +180,8 @@ h2, a, .name {
     color: #afaca6;
     text-align: center;
     background-color: $testimonialsBackgroundColor;
-    padding-top: 5%
+    padding-top: 7em;
+    letter-spacing: 0.2em;
 }
 
 .testimonials {
@@ -207,12 +211,6 @@ h2, a, .name {
     }
 }
 
-.testimonial__text{
-
-    p{
-        color: red;
-    }
-}
 
 .name {
     font-size: 1.5em;
@@ -222,6 +220,7 @@ h2, a, .name {
 
 .job {
     color: #afaca6;
+    padding-bottom: 6.5em;
 }
 
 footer {
@@ -231,6 +230,10 @@ footer {
     background-color: $footerBackgroundColor;
     color: $footerColor;
     padding-top: 4%;
+
+    ul {
+      
+    }
     
     h3 {
         font-size: 2em;
